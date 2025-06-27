@@ -23,7 +23,7 @@ spec:
   - group: "apps"
     kind: "Deployment"
   sourceRepos:
-  - https://github.com/stevymonkam/kubernetes-argocd-angular-javasprintboot.git
+  - https://github.com/stevymonkam/argo-kubernetes-angular-spring-qui-fonctione-bien-pour-mes-presentation.git
 ---
 apiVersion: argoproj.io/v1alpha1
 kind: Application
@@ -33,7 +33,7 @@ metadata:
 spec:
   project: angular-new-project
   source:
-    repoURL: https://github.com/stevymonkam/kubernetes-argocd-angular-javasprintboot.git
+    repoURL: https://github.com/stevymonkam/argo-kubernetes-angular-spring-qui-fonctione-bien-pour-mes-presentation.git
     targetRevision: HEAD
     path: .
   destination:
