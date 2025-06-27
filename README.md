@@ -1,5 +1,7 @@
 # kubernetes-argocd-angular-javasprintboot
 
+pour que sa fonctione je doit creer un namespace feature dans argo c est tous et lancer le manifeste et m'assure d'etre sur la branche main
+
 ```yaml
 kubectl apply -f - <<EOF
 apiVersion: argoproj.io/v1alpha1
